@@ -64,3 +64,27 @@ curl --request POST \
 	}
 }'
 ```
+Expected  result: (Valid on 12.07.2023 11:23 - can change in the future)
+```json
+{
+	"pickingOrder": [
+		{
+			"productId": "product-1",
+			"positionId": "position-31"
+		},
+		{
+			"productId": "product-4",
+			"positionId": "position-120"
+		},
+		{
+			"productId": "product-2",
+			"positionId": "position-241"
+		},
+		{
+			"productId": "product-3",
+			"positionId": "position-124"
+		}
+	],
+	"distance": 27
+}
+```
