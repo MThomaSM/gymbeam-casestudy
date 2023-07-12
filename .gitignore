@@ -1,0 +1,19 @@
+# Pravidlá pre Node.js
+node_modules/
+npm-debug.log
+
+# Pravidlá pre TypeScript
+dist/
+*.tsbuildinfo
+
+# Pravidlá pre IDE / Editor
+.vscode
+.idea
+*.sw*
+*.swo
+*.swn
+*.log
+
+# Pravidlá pre OS
+.DS_Store
+Thumbs.db
